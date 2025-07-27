@@ -12,4 +12,4 @@ const schema = new Schema({
     profession: String,
 });
 
-module.exports = mongoose.model('records', schema);
+module.exports = mongoose.model('Record', schema);
