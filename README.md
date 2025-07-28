@@ -32,3 +32,5 @@
  
 - Aprovecho para invitar a observar mi api de nodejs que se encuentra en mi repositorio de red-social.
   
+- Ademas un proyecto realizado en nodejs y reactjs que lo tengo desplegado en producción
+  https://tunegociodigital-ndiw.vercel.app/  credenciales: usuario@usuario.com y pass: 123456
