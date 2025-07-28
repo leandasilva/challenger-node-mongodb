@@ -30,3 +30,5 @@
 
 - Agregé en Controller.js comentarios sobre que recibe y que envia para que ayude a la hora de diseñar la parte del frontend.
  
+- Aprovecho para invitar a observar mi api de nodejs que se encuentra en mi repositorio de red-social.
+  
