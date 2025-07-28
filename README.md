@@ -27,4 +27,6 @@
 - En un futuro se podria agregar autenticaciones middleware para que sea mas seguro y para que solo pueda acceder a dichos datos solo el propietario a traves de un token de auth con jwt, desde el backend.
 
 - Ademas de Express cuento con conocimiento de Nestjs es similar para la generar API REST(post,get,delete,put)pero cambia en varias cosas como ser la utilización de decoradores.
+
+- Agregé en Controller.js comentarios sobre que recibe y que envia para que ayude a la hora de diseñar la parte del frontend.
  
