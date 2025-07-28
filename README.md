@@ -14,7 +14,7 @@
 - Cambio aplicados en primer lugar pude importar el .json de Postman.
   
 - Descargué el archivo .csv y probe con un archivo mayor a 80mb que no supere los 200mb donde si llega a sobrepasar los 200mb lanza un mensaje de error
-- y no me permite subir un archivo y así cumplir con la fiabilidad de un sistema.
+  y no me permite subir un archivo y así cumplir con la fiabilidad de un sistema.
 
 
 # Consideraciones:
