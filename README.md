@@ -1,23 +1,28 @@
 # node-mongo-big-file-exercise
 
-Hola! Este es un ejercicio para poner a prueba tus conocimientos de NodeJS y MongoDB. El objetivo es realizar un endpoint que reciba un archivo de ~80mb separado por comas y guarde cada uno de los registros del archivo en la base de datos.
+- Vamos por parte utilice el mismo nombre de la base de datos de mongodb.
+  
+- Limpie route para dejarlo más intuitivo quite todo otra funcionalidad dejandolo todo a la funcion upload.
+  
+- Modifique scripts start y dev para utilizar nodemon(luego de actualizar baje y levanta en gitbash recarga el servicio de manera automatica)
+  
+- Comando para iniciar npm run dev
+  
+- Mejore rendimiento de carga y disminucion de tiempo y uso de memoria cache buffer paso de 2,50 minutos a 1,49 minutos de carga en mongodb.
+  rendimiento considerable de la mitad de tiempo con registros de 100.000.
+  
+- Cambio aplicados en primer lugar pude importar el .json de Postman.
+  
+- Descargué el archivo .csv y probe con un archivo mayor a 80mb que no supere los 200mb donde si llega a sobrepasar los 200mb lanza un mensaje de error
+- y no me permite subir un archivo y así cumplir con la fiabilidad de un sistema.
 
-El archivo podés descargarlo de este link:
-https://drive.google.com/file/d/1tg8dWr4RD2CeKjEdlZdTT8kLDzfITv_S/view?usp=sharing
-(está zippeado para que lo descargues rápido, descomprimilo manualmente)
 
-Se evaluará teniendo en cuenta la prolijidad del código (indentación, comentarios y legibilidad), la performance (tiempo de procesado y memoria utilizada) y escalabilidad (si soporta archivos aún más grandes).
+# Consideraciones:
 
-Para simplificarlo, hemos creado este repo starter que se conecta a la base de datos, crea el modelo y expone el endpoint `[POST] /upload` donde tenés que subir el archivo (podés probarlo con Postman). En el archivo `src/controller.js` tenés que ingresar tu código.
+- Mantuve un codigo limpio prolijo y bien claro para que sea una api escalable y mantenible respetando la estructura de controller model y route.
 
-## Consideraciones
+- En un futuro se podria agregar autenticaciones middleware para que sea mas seguro y para que solo pueda acceder a dichos datos solo el propietario
+  a traves de un token de auth con jwt, desde el backend.
 
-- Hace un fork de este repo para comenzar, y cuando tengas la solución compartí tu repositorio con quien te solicitó este ejercicio.
-- Recordá correr `npm install` o `yarn install` para instalar las dependencias
-- Podés usar hasta 1 librería de tu preferencia además de las incluídas.
-- En el endpoint `[GET] /records` podés ver los 10 últimos registros que se procesaron.
-- El archivo subido se guarda en el directorio `_temp`, recordá eliminarlo luego de utilizarlo.
-- Modificá el archivo `.env` para cambiar el puerto y la conexión a la base de datos.
-
-## Postman
-En el directorio `postman` del repo, vas a encontrar los dos requests para que puedas importarlos en Postman.
+- Ademas de Express cuento con conocimiento de Nestjs es similar pero cambia en varias cosas.
+ 
