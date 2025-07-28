@@ -4,7 +4,7 @@
   
 - Limpie route para dejarlo más intuitivo dejandole todo el trabajo a la funcion upload.
   
-- Modifique scripts start y dev para utilizar nodemon que ya se encontraba instalado esto me permmite luego de actualizar cada file el controlador de versiones
+- Modifique scripts start y dev para utilizar nodemon que ya se encontraba instalado esto me permmite luego de   actualizar cada file el controlador de versiones
   se vuelve a recargar actualizando automaticamente el API.
   
 - Comando para levantar servicio: npm run dev.
@@ -24,8 +24,7 @@
 
 - Mantuve un codigo limpio prolijo y bien claro para que sea una api escalable y mantenible respetando la estructura de CONTROLLER, MODELS, ROUTE.
 
-- En un futuro se podria agregar autenticaciones middleware para que sea mas seguro y para que solo pueda acceder a dichos datos solo el propietario
-  a traves de un token de auth con jwt, desde el backend.
+- En un futuro se podria agregar autenticaciones middleware para que sea mas seguro y para que solo pueda acceder a dichos datos solo el propietario a traves de un token de auth con jwt, desde el backend.
 
-- Ademas de Express cuento con conocimiento de Nestjs es similar para la generar API REST pero cambia en varias cosas como ser la utilización de decoradores.
+- Ademas de Express cuento con conocimiento de Nestjs es similar para la generar API REST(post,get,delete,put)pero cambia en varias cosas como ser la utilización de decoradores.
  
